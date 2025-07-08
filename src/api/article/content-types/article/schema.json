@@ -74,9 +74,16 @@
         }
       },
       "components": [
-        "shared.rich-text",
         "shared.seo"
       ]
+    },
+    "body": {
+      "type": "blocks",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
